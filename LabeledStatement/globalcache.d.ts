@@ -1,12 +1,4 @@
-// Type definitions for Glob 7.1
-// Project: https://github.com/isaacs/node-glob
-// Definitions by: vvakame <https://github.com/vvakame>
-//                 voy <https://github.com/voy>
-//                 Klaus Meinhardt <https://github.com/ajafff>
-//                 Piotr Błażejewicz <https://github.com/peterblazejewicz>
-// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference types="node" />
 
 import events = require("events");
 import minimatch = require("minimatch");
