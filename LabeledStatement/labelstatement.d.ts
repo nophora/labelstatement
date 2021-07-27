@@ -51,6 +51,7 @@ export interface Program extends BaseNode {
 interface BaseFunction extends BaseNode {
   params: Array<Pattern>;
   generator?: boolean;
+  compiler?:boolean;
   async?: boolean;
   // The body is either BlockStatement or Expression because arrow functions
   // can have a body that's either. FunctionDeclarations and
