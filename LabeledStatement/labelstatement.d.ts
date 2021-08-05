@@ -29,7 +29,7 @@ export interface Comment extends BaseNodeWithoutComments {
 }
 
 interface SourceLocation {
-  source?: string | null;
+  source?: string | true;
   start: Position;
   end: Position;
 }
